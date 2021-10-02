@@ -1,0 +1,45 @@
+#bh{
+    background: linear-gradient(#f7052d 0%,#8002ed 100%);
+    text-align: center;
+}
+
+#number1{
+    background-color: transparent;
+    color:black;
+    margin-bottom: 50px;
+}
+
+#number2{
+    background-color: transparent;
+    color:black;
+    margin-bottom: 50px;
+}
+
+#s{
+    background: linear-gradient(red 0%, #8F00FF 100%);
+    margin-bottom: 50px;
+    color: white;
+}
+
+#h1{
+    color:aqua;
+    border-width: 8px;
+    border-color: aqua;
+    border-style: solid;
+    text-align: center;
+    border-radius: 80px;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-bottom: 50px;
+}
+
+#output{
+    background:beige;
+    border-radius: 10px;
+    border-width: 20px;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
