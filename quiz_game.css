@@ -1,0 +1,52 @@
+
+body{
+    background: linear-gradient(#051df7 0%,#9400c5 100%);
+    text-align: center;
+}
+
+#f{
+    color:rgb(0, 59, 168);
+    font-size: 28px;
+    background-color: tan;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#i{
+    color: teal;
+    font-size: 28px;
+    background-color: tan;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#l{
+    font-size: larger;
+    margin-bottom: 50px;
+    color: beige;
+}
+
+#m{
+    font-size: larger;
+    margin-bottom: 50px;
+    color: beige;
+}
+
+#player1_name_input{
+    background-color: transparent;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#player2_name_input{
+    background-color: transparent;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#b{
+    background: linear-gradient(blue 0%,purple 100%);  
+    color:white;
+}
