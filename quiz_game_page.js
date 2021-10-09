@@ -37,11 +37,13 @@ function check(){
 
             update_player1_score = player1_score + 1;
             document.getElementById("player1_score").innerHTML = update_player1_score;
+            document.getElementById("player_answer").innerHTML = "Answer Turn - " + player2_name;
         }
         else{
 
             update_player2_score = player2_score + 1;
             document.getElementById("player2_score").innerHTML = update_player2_score;
+            document.getElementById("player_answer").innerHTML = "Answer Turn - " + player1_name;
         }
     }
     if(question_turn == "player1"){
@@ -54,4 +56,5 @@ function check(){
         question_turn = "player1"
         document.getElementById("player_question").innerHTML = "Question Turn - " + player1_name;
     }
+    document.getElementById("output").innerHTML = "";
 }
